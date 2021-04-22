@@ -1,5 +1,58 @@
-.hola {
-    background: pink;
+#titulo {
+    background: lightblue;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px lightslategray;
+}
+
+nav ul {
+    color: blue; 
+    background: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divs {
+    padding: 4px 2px 4px;
+    border: 1px solid black;
+    margin: 0px 0px 2px;
+    align-self: center;
+
+}
+
+.parrafo {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+}
+
+#titulo1 {
+    background: lightgreen;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#titulo2 {
+    background: lightgreen;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.primerpar{
     font-size: 20px;
     font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+
+}
+
+.fotos{
+    align-self: center;
+    position: relative;
+    right: -400px;
 }
