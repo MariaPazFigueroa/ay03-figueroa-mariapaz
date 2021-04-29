@@ -4,6 +4,8 @@
         <meta charset="utf-8" /> 
         <title> Ejercicio Ayudantia 3 </title>
         <link href="estilo.css" rel="stylesheet" />
+        <script type="text/javascript" src="jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="aplicacion.js"></script>
     </head>
     <body> 
         <header id="titulo"> <strong> AYUDANTIA 3: PAISAJES </strong>
@@ -18,14 +20,19 @@
             </ul>
         </nav>
         <p> <hr> </p>
+        <button id="boton1"> Ocultar </button>
+        <button id="boton2"> Mostrar </button>
+        <button id="boton3"> Cambiar texto </button>
+        <h3 id="cambio"> Aqui se cambiara el texto: </h3>
         <div class="divs" id="titulo1"> <p> Paisaje numero 1 </p></div>
-        <p class="parrafo"> Este paisaje corresponde a una montaña y una persona sacando una foto</p>
-        <div class="divs"> <img class="fotos" src="paisaje1.jpg" height="200" width="500"> </div>
+        <p class="parrafo" id="ocultar"> Este paisaje corresponde a una montaña y una persona sacando una foto</p>
+        <div class="divs" > <img class="fotos" src="paisaje1.jpg" height="200" width="500"> </div>
+        <div id="cuadro"> CAMBIO DE COLOR </div>
         <p> <hr> </p>
         <div class="divs" id="titulo2"> <p> Paisaje numero 2 </p></div>
         <p class="parrafo"> Este paisaje corresponde a la aurorea boreal </p>
         <div class="divs"> <img class="fotos" src="paisaje2.jpg" height="200" width="500"></div>
-        
+        <div id="lista"> <p>lista apretados:</p> </div>
     </body>
 </html>
 </idoctype>

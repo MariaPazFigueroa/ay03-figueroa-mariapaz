@@ -56,3 +56,30 @@ nav ul {
     position: relative;
     right: -400px;
 }
+
+#boton1 {
+    background: lightblue;
+    size: 100;
+}
+#boton2 {
+    background: lightblue;
+}
+
+#cuadro {
+    background: blue;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+#boton3 {
+    background: lightblue;
+}
+
+#cambio {
+    background: lightpink;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 50px;
+}
